@@ -1,11 +1,14 @@
 /* eslint-disable semi */
 
 function random(n) {
-  return Math.random() * n
+  var intvalue = Math.floor( Math.random() * n )
+    return intvalue
 }
 
 function randomD(n) {
-  return 0
+    var intvalue = Math.floor( 0 )
+
+    return intvalue
 }
 
 function randomRolls(n, s) {
